@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import model</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-cursor-teleport@1.5.0/dist/aframe-cursor-teleport-component.min.js"></script>
+</head>
+<body>
+    <a-scene cursor="rayOrigin: mouse">
+        <a-assets>
+            <img id="ground" src="images/sand.jpg">
+            <img id="sky" src="images/puresky.jpeg" alt="">
+            <a-asset-item id="muse" src="models/muse/scene.gltf"></a-asset-item>
+        </a-assets>
+        <a-plane material="color:#FFFFFF; src:#ground; repeat:800 800" position="0 0 -4"  color="green" rotation="-90 0 0" width="1000" height="1000"></a-plane>
+        <a-sky src="#sky"></a-sky>
+        <a-entity gltf-model="#muse" scale="2 2 2" position="5 -1.5 -5"></a-entity>
+        <a-entity id="cameraRig" cursor-teleport="cameraRig: #cameraRig; cameraHead: #head">
+            <a-entity id="head" position="0 1.52 0" camera look-controls="reverseMouseDrag: true">
+            </a-entity>
+        </a-entity>
+    </a-scene>
+    
+</body>
+</html>

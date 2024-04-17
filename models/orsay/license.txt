@@ -1,0 +1,11 @@
+Model Information:
+* title:	Statue At Musée d'Orsay
+* source:	https://sketchfab.com/3d-models/statue-at-musee-dorsay-9b6b3d68ae744b60a729d941ec3222ea
+* author:	kait lippe (https://sketchfab.com/kaitlippe)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Statue At Musée d'Orsay" (https://sketchfab.com/3d-models/statue-at-musee-dorsay-9b6b3d68ae744b60a729d941ec3222ea) by kait lippe (https://sketchfab.com/kaitlippe) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

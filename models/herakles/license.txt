@@ -1,0 +1,11 @@
+Model Information:
+* title:	Héraklès archer
+* source:	https://sketchfab.com/3d-models/herakles-archer-cdcf219befe5428d866221388761490a
+* author:	crlnvl (https://sketchfab.com/crlnvl)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Héraklès archer" (https://sketchfab.com/3d-models/herakles-archer-cdcf219befe5428d866221388761490a) by crlnvl (https://sketchfab.com/crlnvl) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
