@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hercule combattant Archeloüs
+* source:	https://sketchfab.com/3d-models/hercule-combattant-archelous-364b85be74b64e4b8c25f8ab162d82f8
+* author:	pattarrian (https://sketchfab.com/pattarrian)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hercule combattant Archeloüs" (https://sketchfab.com/3d-models/hercule-combattant-archelous-364b85be74b64e4b8c25f8ab162d82f8) by pattarrian (https://sketchfab.com/pattarrian) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

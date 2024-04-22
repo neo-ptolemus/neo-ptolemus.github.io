@@ -1,0 +1,289 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.08230265974998474,
+        0.21510344743728638,
+        0.09690400958061218
+      ],
+      "min": [
+        -0.08230266720056534,
+        -0.20550423860549927,
+        -0.09690400958061218
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 660276,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.9999996423721313,
+        0.9999949336051941,
+        0.9999968409538269
+      ],
+      "min": [
+        -0.9999990463256836,
+        -1.0,
+        -0.9999959468841553
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.9984208345413208,
+        0.9999210238456726
+      ],
+      "min": [
+        2.6155455998377874e-05,
+        5.558606062550098e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 440184,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.9984208345413208,
+        0.9999210238456726
+      ],
+      "min": [
+        2.6155455998377874e-05,
+        5.558606062550098e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 880368,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.9984208345413208,
+        0.9999210238456726
+      ],
+      "min": [
+        2.6155455998377874e-05,
+        5.558606062550098e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1320552,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.9984208345413208,
+        0.9999210238456726
+      ],
+      "min": [
+        2.6155455998377874e-05,
+        5.558606062550098e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1760736,
+      "componentType": 5126,
+      "count": 55023,
+      "max": [
+        0.9984208345413208,
+        0.9999210238456726
+      ],
+      "min": [
+        2.6155455998377874e-05,
+        5.558606062550098e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 287295,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "jetblaque69 (https://sketchfab.com/jetblaque69)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/hercules-diomedes-classical-sculpture-49a61d6810c14ae0b724e7691b3d92d2",
+      "title": "Hercules & Diomedes Classical Sculpture"
+    },
+    "generator": "Sketchfab-15.1.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1149180,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2200920,
+      "byteOffset": 1149180,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1320552,
+      "byteOffset": 3350100,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4670652,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/material_0_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material_0",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TEXCOORD_2": 4,
+            "TEXCOORD_3": 5,
+            "TEXCOORD_4": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
