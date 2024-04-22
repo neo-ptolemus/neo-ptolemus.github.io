@@ -58,7 +58,10 @@
             // Réinitialiser le score à 0 lorsque le bouton "Recommencer" est cliqué
             document.getElementById("recommencerBtn").addEventListener("click", function() {
                 localStorage.setItem("score", 0);
-                window.location.href = 'foi.html';
+                localStorage.setItem("animaux", 0);
+                localStorage.setItem("mercure", 0);
+                localStorage.setItem("hercule", 0);
+                window.location.href = 'musee.html';
             });
         };
     </script>
