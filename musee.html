@@ -11,14 +11,24 @@
     
     <style>
         #text {
-           position: absolute; /* Positionne l'élément de manière absolue sur la page */
-           z-index: 999; /* S'assure qu'il est au-dessus de la scène A-Frame */
-           background-color: rgba(255, 255, 255, 0.7); /* Rend le fond légèrement transparent */
-           padding: 20px; /* Ajoute un peu de padding autour du texte */
+           position: absolute; 
+           z-index: 999;
+           background-color: rgba(255, 255, 255, 0.7); 
+           padding: 20px;
            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
            width:50%;
            margin:20px;
            border-radius: 8px;
+       }
+       #score{
+        position:absolute; 
+           top: 0; 
+           right: 0; 
+           z-index: 999; 
+           background-color: rgba(255, 255, 255, 0.7); 
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font-weight: bold;
+           padding: 10px; 
        }
        h3{
         margin-left: 10px;
@@ -27,13 +37,11 @@
         border: 1px solid black;
        }
 
-       .a-loader-title {
-  color: red;
-}
+       
    </style>
 </head>
 <body>
-    <a-scene loading-screen="dotsColor: red; backgroundColor: black, enable:true">
+    <a-scene cursor="rayOrigin: mouse">
         
             <a-assets>
                
@@ -91,6 +99,8 @@
 
             <div id="text" style="display:none"></div>
 
+            <div id="score"></div>
+
             <a-camera id="camera">
                 <a-cursor></a-cursor>
             </a-camera>
@@ -110,6 +120,9 @@
         desc.set("pegase", "<h1>MERCURE A CHEVAL SUR PEGASE</h1><hr><h3>Antoine Coysevix - 1698-1702</h3><p>Réalisé par Antoine COYSEVOX sculpteur francais entre 1698 1702. Cette sculpture représente La Renommée et Mercure chevauchant Pégase pour symboliser la Renommée du Roi dans ses aspects pacifiques et guerriers. Mercure guide le cheval de la poésie et foule aux pieds les trophées de la guerre, symbolisant l'abondance et la paix. La Renommée, couronnée de lauriers, annonce les victoires du roi en soufflant dans la trompette de la Vérité, entourée de trophées et d'une cuirasse ornée de la dépouille de lion.</p>");
         desc.set("rhino", "<h1>RHINOCEROS</h1><hr><h3>Henri Alfred Jacquemart - 1878</h3><p>Réalisé par Henri Alfred Jacquemart né le 24 février 1824 et mort le 4 janvier 1896, c'était un sculpteur qui a comme spécialité la représentation d\'animaux. Avec Pierre Louis Rouillard, Pierre Jules Mène ou Antoine-Louis Barye il fait parti des sculpteur qui ont, dans la deuxième moitié du XIXe siècle , profité de l\'engouement nouveau de la bourgeoisie pour les sculptures d\'ameublement, particulièrement les sculptures d'animaux. Cette sculpture, rhinocéros a été commandée pour l\' Exposition universelle de 1878. Elle faisait partie d'un ensemble de quatre statues monumentales en fonte de fer et dorées avec notamment Cheval à la herse de Pierre Louis Rouillard, sculpture d\' Henri-Alfred Jacquemart qui entouraient la fontaine devant le palais du Trocadéro à Paris.</p>");
 
+        
+        let lscore=localStorage.getItem("score");
+        document.getElementById('score').innerHTML = "SCORE : "+lscore;
 
         function afficheTexte(name) {
 
